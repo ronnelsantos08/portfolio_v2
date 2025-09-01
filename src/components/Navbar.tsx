@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,10 +28,10 @@ export default function Navbar() {
             <Link href="/" className="menu-link text-gray-600 hover:text-gray-900">
               Home
             </Link>
-            <Link href="/about" className="menu-link text-gray-600 hover:text-gray-900">
-              About
+            <Link href="#experience" className="menu-link text-gray-600 hover:text-gray-900">
+              Experience
             </Link>
-            <Link href="/services" className="menu-link text-gray-600 hover:menu-link -900">
+            <Link href="#services" className="menu-link text-gray-600 hover:menu-link -900">
               Services
             </Link>
             <Link href="/contact" className="menu-link text-gray-600 hover:text-gray-900">
@@ -66,26 +67,36 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {isOpen && (
-          <div className="md:hidden mt-2 flex flex-col space-y-2">
-            <Link href="/" className="text-gray-600 hover:text-gray-900">
-              Home
-            </Link>
-            <Link href="/about" className="text-gray-600 hover:text-gray-900">
-              About
-            </Link>
-            <Link href="/services" className="text-gray-600 hover:text-gray-900">
-              Services
-            </Link>
-            <Link href="/contact" className="text-gray-600 hover:text-gray-900">
-              Contact
-            </Link>
-            <Link href="/message" className="butn">
-                <span>Message Me</span>
-                </Link>
-          </div>
-        )}
+
+{/* Mobile Menu */}
+<AnimatePresence>
+  {isOpen && (
+    <motion.div
+      initial={{ opacity: 0, height: 0 }}
+      animate={{ opacity: 1, height: "auto" }}
+      exit={{ opacity: 0, height: 0 }}
+      transition={{ duration: 0.4, ease: "easeInOut" }}
+      className="md:hidden mt-2 flex flex-col space-y-2 w-25"
+    >
+      <Link href="/" className="text-gray-600 hover:text-gray-900">
+        Home
+      </Link>
+      <Link href="#experience" className="text-gray-600 hover:text-gray-900">
+        Experience
+      </Link>
+      <Link href="#services" className="text-gray-600 hover:text-gray-900">
+        Services
+      </Link>
+      <Link href="/contact" className="text-gray-600 hover:text-gray-900">
+        Projects
+      </Link>
+      <Link href="/message" className="butn">
+        <span>Message Me</span>
+      </Link>
+    </motion.div>
+  )}
+</AnimatePresence>
+
       </div>
     </nav>
   );

@@ -15,9 +15,9 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="z-1 pb-20 lg:pb-50">
+    <section className="z-1 pb-30">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-4xl font-bold mb-8">My Skills</h2>
+        <h2 className="text-4xl font-bold mb-8 text-gray-700">My Skills</h2>
         <p className="text-gray-700 mb-12">
           Technologies I work with and enjoy building with. From front-end to back-end, these are the technologies I use to craft performant and visually stunning web applications.
         </p>
@@ -32,7 +32,7 @@ export default function Skills() {
                 autoplay
                 style={{ width: 70, height: 70 }}
               />
-              <span className="text-lg font-semibold">{skill.name}</span>
+              <span className="text-lg font-semibold text-gray-700">{skill.name}</span>
             </div>
           ))}
         </div>

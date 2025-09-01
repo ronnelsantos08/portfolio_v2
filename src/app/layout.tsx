@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Empowering Your Business Through Intelligent Web Solutions. We push boundaries to deliver exceptional results for clients and partners.",
   authors: [{ name: "Ronnel Santos" }],
-  icons: "/logo1.png",
+  icons: "/icon.png",
   openGraph: {
     title: "WebWorks | Intelligent Web Solutions",
     description:
