@@ -39,7 +39,7 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-bold text-gray-800 mb-3">Get in Touch</h4>
-            <p className="text-sm opacity-80 flex text-black gap-2 py-2"><Mail size={20} /> <a href="Mailto:ronnel.santos08@gmail.com">ronnel.santos08@example.com</a></p>
+            <p className="text-sm opacity-80 flex text-black gap-2 py-2"><Mail size={20} /> <a href="Mailto:ronnel.santos08@gmail.com">ronnel.santos08@gmail.com</a></p>
             <p className="text-sm opacity-80 flex text-black gap-2 py-2"><Phone size={20} /><a href="Tel:+639757946973">+63 975 794 6973</a></p>
 
 
