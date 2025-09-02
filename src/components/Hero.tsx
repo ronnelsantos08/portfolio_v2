@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-      <section id="home" className="flex items-start justify-center">
+      <section id="home" className="flex items-start justify-center w-full">
        <div className="w-full max-w-3xl mx-auto my-10 flex flex-col items-center justify-center px-4 sm:px-10 md:px-10 lg:px-0">
       {/* Headline */}
       <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6 font-barriecito text-center">
@@ -58,7 +58,7 @@ export default function Home() {
 </div>
     {/* Right: Intro */}
     <div className="flex-1 text-center md:text-left">
-      <h1 className="text-4xl font-bold mb-4 text-gray-700">Hi, I’m Ronnel</h1>
+      <h1 className="text-4xl font-bold mb-4 text-gray-900">Hi, I’m Ronnel</h1>
       <p className="text-lg text-gray-700">
     Let’s create clean, modern, and impactful websites together. I’ll help turn your ideas into interactive and visually appealing digital experiences.
   </p>

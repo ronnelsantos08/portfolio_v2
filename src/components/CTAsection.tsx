@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function CTASection() {
   return (
-    <section className="py-20 z-10">
+    <section className="py-20 z-10 w-full">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-12">
         
         {/* Left: Text */}
@@ -43,13 +43,13 @@ export default function CTASection() {
         </div>
 
         {/* Right: Image */}
-        <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="w-100 lg:w-1/2 flex justify-center">
           <Image
             src="/lets-go.png"
             alt="Personal business idea illustration"
             width={200}
             height={200}
-            className="w-100 h-auto"
+            className="md:w-100 w-70 h-auto"
             priority
           />
         </div>
