@@ -6,9 +6,9 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        // Apply CSP to all routes
-        source: '/(.*)',
+        source: '/(.*)', // apply to all routes
         headers: [
+          // Content Security Policy
           {
             key: 'Content-Security-Policy',
             value: `
@@ -22,7 +22,31 @@ const nextConfig: NextConfig = {
               base-uri 'self';
               form-action 'self';
               frame-ancestors 'none';
-            `.replace(/\s{2,}/g, ' '), // remove extra whitespace
+            `.replace(/\s{2,}/g, ' '),
+          },
+
+          // HSTS – start with low max-age for testing
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=86400; includeSubDomains; preload',
+          },
+
+          // Cross-Origin-Opener-Policy
+          {
+            key: 'Cross-Origin-Opener-Policy',
+            value: 'same-origin',
+          },
+
+          // Cross-Origin-Embedder-Policy
+          {
+            key: 'Cross-Origin-Embedder-Policy',
+            value: 'require-corp',
+          },
+
+          // Clickjacking Protection (X-Frame-Options)
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
           },
         ],
       },
