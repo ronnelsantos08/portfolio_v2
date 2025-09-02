@@ -100,7 +100,7 @@ export default function Projects() {
               onClick={() => setSelectedCategory(project)}
             >
               <div className="bg-white rounded-xl shadow-lg p-4">
-                <h2 className="text-xl text-orange-500 font-mono mb-3">{project.title}</h2>
+                <h2 className="text-xl text-orange-600 font-mono mb-3">{project.title}</h2>
                 <video
                   src={project.video}
                   autoPlay
@@ -126,7 +126,7 @@ export default function Projects() {
     >
       <button
         onClick={() => setSelectedCategory(null)}
-        className="absolute top-4 right-4 text-orange-400 hover:text-purple-400"
+        className="absolute top-4 right-4 text-orange-500 hover:text-purple-400"
       >
         <X size={24} />
       </button>

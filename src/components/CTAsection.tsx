@@ -36,7 +36,7 @@ export default function CTASection() {
             href="https://m.me/ronnel.santos08"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-3 bg-orange-500 my-5 text-white rounded-lg font-semibold shadow-2xl hover:bg-purple-500 transition duration-300 transform hover:-translate-y-1"
+            className="inline-block px-6 py-3 bg-orange-500 my-5 text-black rounded-lg font-semibold shadow-2xl hover:bg-purple-500 transition duration-300 transform hover:-translate-y-1"
           >
             Get Started
           </a>

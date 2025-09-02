@@ -17,14 +17,14 @@ export default function Footer() {
                 className="w-60 h-auto"
                 priority
                 />
-            <p className="text-sm opacity-80 mt-4">
+            <p className="text-sm opacity-80 mt-4 text-black">
               Building modern, responsive, and optimized digital experiences.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-3">Quick Links</h3>
+            <h3 className="text-2l font-bold text-gray-800 mb-3">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="#home" className="menu-link hover:text-purple-400 transition">Home</a></li>
               <li><a href="#experience" className="menu-link hover:text-purple-400 transition">Experience</a></li>
@@ -38,9 +38,9 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold text-gray-800 mb-3">Get in Touch</h4>
-            <p className="text-sm opacity-80 flex gap-2 py-2"><Mail size={20} /> <a href="Mailto:ronnel.santos08@gmail.com">ronnel.santos08@example.com</a></p>
-            <p className="text-sm opacity-80 flex gap-2 py-2"><Phone size={20} /><a href="Tel:+639757946973">+63 975 794 6973</a></p>
+            <h4 className="text-lg font-bold text-gray-800 mb-3">Get in Touch</h4>
+            <p className="text-sm opacity-80 flex text-black gap-2 py-2"><Mail size={20} /> <a href="Mailto:ronnel.santos08@gmail.com">ronnel.santos08@example.com</a></p>
+            <p className="text-sm opacity-80 flex text-black gap-2 py-2"><Phone size={20} /><a href="Tel:+639757946973">+63 975 794 6973</a></p>
 
 
 
