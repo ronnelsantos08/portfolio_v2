@@ -83,7 +83,7 @@ export default function Projects() {
     <section id="projects" className="max-w-full md:max-w-6xl mx-auto px-6 lg:px-12 py-20">
       <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">My Projects</h2>
       <p className="text-center text-gray-600 mb-12">
-      Here are some of the projects I’ve worked on, showcasing my skills in web development, front-end design, and digital solutions. Each project reflects my focus on creating clean, functional, and user-friendly digital products..
+      Here are some of the projects I've worked on, showcasing my skills in web development, front-end design, and digital solutions. Each project reflects my focus on creating clean, functional, and user-friendly digital products..
       </p>
 
       {/* Carousel */}
@@ -145,26 +145,37 @@ export default function Projects() {
 
       {/* List of projects */}
       <div className="space-y-4">
-        {selectedCategory.items.map((item, idx) => (
-     <details
-     key={idx}
-     className="shadow-2xl rounded overflow-hidden"
-   >
-     <summary className="cursor-pointer text-lg font-mono px-4 py-2 bg-orange-300 hover:bg-purple-300 transition">
-       {item.name}
-     </summary>
-     <div className="overflow-hidden transition-all duration-300 max-h-0 group-open:max-h-96 px-4 py-2 text-gray-700">
-       <p className="mb-2">{item.description}</p>
-       <a
-         href={item.url}
-         target="_blank"
-         className="menu-link inline-block w-30 my-2 bg-orange-400 text-center !text-black rounded py-1"
-       >
-         See Live
-       </a>
-     </div>
-   </details>
-        ))}
+      {selectedCategory.items.map((item, idx) => (
+  <details
+    key={idx}
+    className="group shadow-2xl rounded overflow-hidden"
+  >
+    <summary className="cursor-pointer text-lg font-mono px-4 py-3 bg-orange-300 hover:bg-purple-300 transition flex justify-between items-center">
+      <span>{item.name}</span>
+      <span className="ml-2 text-xl font-bold text-gray-800 transition-all duration-300 group-open:rotate-180">
+        {/** Icon toggles between + and – */}
+        <span className="group-open:hidden">+</span>
+        <span className="hidden group-open:inline">−</span>
+      </span>
+    </summary>
+
+    <div
+      className="px-4 py-3 text-gray-700 origin-top scale-95 opacity-0 max-h-0 
+                 transition-all duration-500 ease-in-out 
+                 group-open:scale-100 group-open:opacity-100 group-open:max-h-[500px]"
+    >
+      <p className="mb-3">{item.description}</p>
+      <a
+        href={item.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="menu-link inline-block px-4 py-2 bg-orange-400 !text-black text-sm font-semibold rounded hover:bg-purple-400 transition"
+      >
+        See Live
+      </a>
+    </div>
+  </details>
+))}
       </div>
     </div>
   </div>

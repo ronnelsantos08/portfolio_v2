@@ -8,7 +8,7 @@ export default function CTASection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-12">
         
         {/* Left: Text */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
+        <div className="w-full lg:w-1/2 text-center lg:text-left flex flex-col items-center lg:items-start">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
             Got a Business
             <span
@@ -32,14 +32,15 @@ export default function CTASection() {
             I focus on clean design, responsive development, and practical features that help your idea succeed in the digital world. Let&apos;s create something amazing together.
           </p>
 
-          <a
-            href="https://m.me/ronnel.santos08"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-6 py-3 bg-orange-500 my-5 text-black rounded-lg font-semibold shadow-2xl hover:bg-purple-500 transition duration-300 transform hover:-translate-y-1"
-          >
-            Get Started
-          </a>
+          <a 
+     href="https://m.me/ronnel.santos08"
+     target="_blank" 
+     rel="noopener noreferrer"
+   className="custom-button shadow-2xl !w-36">
+  <div className="front !w-36">
+    <span>Get started</span>
+  </div>
+</a>
         </div>
 
         {/* Right: Image */}
