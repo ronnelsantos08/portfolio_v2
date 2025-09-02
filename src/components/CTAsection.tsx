@@ -27,7 +27,7 @@ export default function CTASection() {
             I love turning ideas into reality. Whether it's a personal website, a business platform, or a digital product, I build solutions that are functional, modern, and user-friendly.
           </p>
           <p className="text-lg sm:text-xl text-gray-700 mb-6">
-            I focus on clean design, responsive development, and practical features that help your idea succeed in the digital world. Let’s create something amazing together.
+            I focus on clean design, responsive development, and practical features that help your idea succeed in the digital world. Lets create something amazing together.
           </p>
           <a
              href="https://m.me/ronnel.santos08" 
