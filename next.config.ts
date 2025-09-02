@@ -8,15 +8,15 @@ const nextConfig: NextConfig = {
       {
         source: '/(.*)', // apply to all routes
         headers: [
-          // Content Security Policy
+          // Content Security Policy (CSP)
           {
             key: 'Content-Security-Policy',
             value: `
               default-src 'self';
-              script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com;
-              style-src 'self' 'unsafe-inline';
+              script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com blob:;
+              style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
               img-src 'self' data: https:;
-              font-src 'self' https:;
+              font-src 'self' https://fonts.gstatic.com;
               connect-src 'self' https://www.google-analytics.com;
               object-src 'none';
               base-uri 'self';
@@ -25,7 +25,7 @@ const nextConfig: NextConfig = {
             `.replace(/\s{2,}/g, ' '),
           },
 
-          // HSTS – start with low max-age for testing
+          // HSTS – enforce HTTPS
           {
             key: 'Strict-Transport-Security',
             value: 'max-age=86400; includeSubDomains; preload',
@@ -43,7 +43,7 @@ const nextConfig: NextConfig = {
             value: 'require-corp',
           },
 
-          // Clickjacking Protection (X-Frame-Options)
+          // Clickjacking protection
           {
             key: 'X-Frame-Options',
             value: 'DENY',
