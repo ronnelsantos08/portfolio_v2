@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "WebWorks",
     images: [
       {
-        url: "https://ronnelsantos.vercel.app/banner.jpeg",
+        url: "https://ronnelsantos.vercel.app/banner.jpg",
       },
     ],
     type: "website",
