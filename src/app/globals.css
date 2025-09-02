@@ -2,6 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
 @import "tailwindcss";
 
+section h1,
+article h1,
+nav h1,
+aside h1 {
+  font-size: 2.5rem !important; /* adjust as needed */
+}
+@media (min-width: 640px) {
+  section h1,
+  article h1,
+  nav h1,
+  aside h1 {
+    font-size: 3rem !important; /* match sm:text-5xl */
+  }
+}
+
 /* Theme variables */
 :root {
   --background: #ffffff;
@@ -59,20 +74,7 @@ body {
   z-index: 0;
 }
 
-section h1,
-article h1,
-nav h1,
-aside h1 {
-  font-size: 2.5rem !important; /* adjust as needed */
-}
-@media (min-width: 640px) {
-  section h1,
-  article h1,
-  nav h1,
-  aside h1 {
-    font-size: 3rem !important; /* match sm:text-5xl */
-  }
-}
+
 /* Logo font */
 .barriecito-regular {
   font-family: 'Barriecito', system-ui;
