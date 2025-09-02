@@ -59,7 +59,9 @@ body {
   z-index: 0;
 }
 
-
+section h1, article h1, nav h1, aside h1 {
+  font-size: 2.5rem;
+}
 /* Logo font */
 .barriecito-regular {
   font-family: 'Barriecito', system-ui;

@@ -4,7 +4,7 @@ import { Facebook, Linkedin, MessageCircle, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-orange-50 shadow-2xl text-gray-600 py-10 mt-16 w-full md:w-2/4">
+    <footer className="bg-orange-50 shadow-2xl text-gray-600 py-10 mt-16 w-full md:w-full lg:w-4/5">
       <div className="max-w-6xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand / About */}
