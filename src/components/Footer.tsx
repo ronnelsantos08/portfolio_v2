@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex-col items-center">
           <Image
                 src="/logo.png"  
-                alt="Webworks logo"
+                alt="WebWorks logo"
                 width={200}     
                 height={0}
                 className="w-60 h-auto"
@@ -42,29 +42,34 @@ export default function Footer() {
             <p className="text-sm opacity-80 flex gap-2 py-2"><Mail size={20} /> <a href="Mailto:ronnel.santos08@gmail.com">ronnel.santos08@example.com</a></p>
             <p className="text-sm opacity-80 flex gap-2 py-2"><Phone size={20} /><a href="Tel:+639757946973">+63 975 794 6973</a></p>
 
+
+
             {/* Social Icons */}
             <div className="flex gap-4 mt-4">
-              <a
+            <a
                 href="https://facebook.com/ronnel.santos08"
                 target="_blank"
-                className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-300 text-gray-900 transform transition-all duration-300 hover:rotate-6 hover:bg-purple-400"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
+                rel="noopener noreferrer"
+                aria-label="Visit my Facebook profile"
+                className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-300 text-gray-900 transform transition-all duration-300 hover:rotate-6 hover:bg-purple-400">
+                <Facebook size={20} aria-hidden="true" />
+            </a>
+            <a
                 href="https://m.me/ronnel.santos08"
                 target="_blank"
-                className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-300 text-gray-900 transform transition-all duration-300 hover:-rotate-6 hover:bg-purple-400"
-              >
-                <MessageCircle size={20} />
-              </a>
-              <a
+                rel="noopener noreferrer"
+                aria-label="Send me a message on Messenger"
+                className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-300 text-gray-900 transform transition-all duration-300 hover:-rotate-6 hover:bg-purple-400">
+                <MessageCircle size={20} aria-hidden="true" />
+            </a>
+            <a
                 href="https://linkedin.com/in/ronnel-santos-16aba8280"
                 target="_blank"
-                className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-300 text-gray-900 transform transition-all duration-300 hover:rotate-6 hover:bg-purple-400"
-              >
-                <Linkedin size={20} />
-              </a>
+                rel="noopener noreferrer"
+                aria-label="Visit my LinkedIn profile"
+                className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-300 text-gray-900 transform transition-all duration-300 hover:rotate-6 hover:bg-purple-400">
+                <Linkedin size={20} aria-hidden="true" />
+            </a>
             </div>
           </div>
         </div>
