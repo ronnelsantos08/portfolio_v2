@@ -20,7 +20,7 @@ export default function Home() {
   
         {/* Subtext */}
         <p className="text-lg sm:text-2xl text-gray-700 max-w-3xl font-sans leading-relaxed text-center">
-          I'm a web developer and designer, crafting clean, user-friendly interfaces and interactive experiences. I combine creativity with code to build websites that not only look great but work seamlessly.
+          I&apos;m a web developer and designer, crafting clean, user-friendly interfaces and interactive experiences. I combine creativity with code to build websites that not only look great but work seamlessly.
         </p>
   
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16 p-4 md:p-10 lg:items-center lg:justify-center">
@@ -58,9 +58,9 @@ export default function Home() {
 </div>
     {/* Right: Intro */}
     <div className="flex-1 text-center md:text-left flex flex-col items-center md:items-start">
-      <h1 className="text-4xl font-bold mb-4 text-gray-900">Hi, I'm Ronnel</h1>
+      <h1 className="text-4xl font-bold mb-4 text-gray-900">Hi, I&apos;m Ronnel</h1>
       <p className="text-lg text-gray-700">
-    Let's create clean, modern, and impactful websites together. I'll help turn your ideas into interactive and visually appealing digital experiences.
+    Let&apos;s create clean, modern, and impactful websites together. I&apos;ll help turn your ideas into interactive and visually appealing digital experiences.
   </p>
     <a 
      href="https://m.me/ronnel.santos08"
@@ -68,7 +68,7 @@ export default function Home() {
      rel="noopener noreferrer"
    className="custom-button shadow-2xl">
   <div className="front">
-    <span>Let's chat</span>
+    <span>Let&apos;s chat</span>
   </div>
 </a>
     </div>

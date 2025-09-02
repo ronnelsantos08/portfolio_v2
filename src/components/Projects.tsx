@@ -83,7 +83,7 @@ export default function Projects() {
     <section id="projects" className="max-w-full md:max-w-6xl mx-auto px-6 lg:px-12 py-20">
       <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">My Projects</h2>
       <p className="text-center text-gray-600 mb-12">
-      Here are some of the projects I've worked on, showcasing my skills in web development, front-end design, and digital solutions. Each project reflects my focus on creating clean, functional, and user-friendly digital products..
+      Here are some of the projects I&apos;ve worked on, showcasing my skills in web development, front-end design, and digital solutions. Each project reflects my focus on creating clean, functional, and user-friendly digital products..
       </p>
 
       {/* Carousel */}
