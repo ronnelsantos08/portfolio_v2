@@ -26,11 +26,13 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold text-gray-800 mb-3">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="/" className="menu-link hover:text-purple-400 transition">Home</a></li>
+              <li><a href="#home" className="menu-link hover:text-purple-400 transition">Home</a></li>
               <li><a href="#experience" className="menu-link hover:text-purple-400 transition">Experience</a></li>
               <li><a href="#services" className="menu-link hover:text-purple-400 transition">Services</a></li>
               <li><a href="#projects" className="menu-link hover:text-purple-400 transition">Projects</a></li>
-              <li><a href="#message" className="menu-link hover:text-purple-400 transition">Message Me</a></li>
+              <li><a   href="https://m.me/ronnel.santos08" 
+                        target="_blank" 
+                        rel="noopener noreferrer" className="menu-link hover:text-purple-400 transition">Message Me</a></li>
             </ul>
           </div>
 
@@ -38,26 +40,26 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold text-gray-800 mb-3">Get in Touch</h4>
             <p className="text-sm opacity-80 flex gap-2 py-2"><Mail size={20} /> <a href="Mailto:ronnel.santos08@gmail.com">ronnel.santos08@example.com</a></p>
-            <p className="text-sm opacity-80 flex gap-2 py-2"><Phone size={20} /><a href="Tel:+639123456789">+63 912 345 6789</a></p>
+            <p className="text-sm opacity-80 flex gap-2 py-2"><Phone size={20} /><a href="Tel:+639757946973">+63 975 794 6973</a></p>
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-4">
               <a
-                href="https://facebook.com"
+                href="https://facebook.com/ronnel.santos08"
                 target="_blank"
                 className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-300 text-gray-900 transform transition-all duration-300 hover:rotate-6 hover:bg-purple-400"
               >
                 <Facebook size={20} />
               </a>
               <a
-                href="https://m.me/"
+                href="https://m.me/ronnel.santos08"
                 target="_blank"
                 className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-300 text-gray-900 transform transition-all duration-300 hover:-rotate-6 hover:bg-purple-400"
               >
                 <MessageCircle size={20} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/ronnel-santos-16aba8280"
                 target="_blank"
                 className="w-10 h-10 flex items-center justify-center rounded-lg bg-orange-300 text-gray-900 transform transition-all duration-300 hover:rotate-6 hover:bg-purple-400"
               >

@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center relative z-10">
+          <Link href="#home" className="flex items-center relative z-10">
           <Image
                 src="/logo.png"
                 alt="Webworks logo"
@@ -34,10 +34,15 @@ export default function Navbar() {
             <Link href="#services" className="menu-link text-gray-600 hover:menu-link -900">
               Services
             </Link>
-            <Link href="/contact" className="menu-link text-gray-600 hover:text-gray-900">
+            <Link href="#projects" className="menu-link text-gray-600 hover:text-gray-900">
               Projects
             </Link>
-            <Link href="/message" className="butn">
+            <Link 
+                href="https://m.me/ronnel.santos08" 
+                className="butn" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                >
                 <span>Message Me</span>
                 </Link>
 
@@ -78,7 +83,7 @@ export default function Navbar() {
       transition={{ duration: 0.4, ease: "easeInOut" }}
       className="md:hidden mt-2 flex flex-col space-y-2 w-25"
     >
-      <Link href="/" className="menu-link text-gray-600 hover:text-gray-900">
+      <Link href="#home" className="menu-link text-gray-600 hover:text-gray-900">
         Home
       </Link>
       <Link href="#experience" className="menu-link text-gray-600 hover:text-gray-900">
@@ -87,10 +92,15 @@ export default function Navbar() {
       <Link href="#services" className="menu-link text-gray-600 hover:text-gray-900">
         Services
       </Link>
-      <Link href="/contact" className="menu-link text-gray-600 hover:text-gray-900">
+      <Link href="#projects" className="menu-link text-gray-600 hover:text-gray-900">
         Projects
       </Link>
-      <Link href="/message" className="butn">
+      <Link 
+                href="https://m.me/ronnel.santos08" 
+                className="butn" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                >
         <span>Message Me</span>
       </Link>
     </motion.div>

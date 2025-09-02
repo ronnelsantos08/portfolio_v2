@@ -12,11 +12,11 @@ const services = [
   },
   {
     title: "Digital Product",
-    description: "Create and sell digital products like e-books, templates, and online courses.",
+    description: "I help clients design, develop, and optimize digital products that are functional, engaging, and scalable.",
   },
   {
     title: "Freelancing Service",
-    description: "Offer your skills and services online with an attractive and functional platform.",
+    description: "I offer a range of freelancing services to help businesses and individuals with their digital needs.",
   },
 ];
 
@@ -31,7 +31,7 @@ export default function Services() {
               key={service.title}
               className="p-6 bg-orange-100/20 border border-orange-100 rounded-xl shadow "
             >
-              <h3 className="text-xl font-bold text-orange-600 mb-2">{service.title}</h3>
+              <h3 className="text-xl font-mono text-orange-600 mb-2">{service.title}</h3>
               <p className="text-gray-700">{service.description}</p>
             </div>
           ))}

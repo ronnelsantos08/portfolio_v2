@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-      <section className="flex items-start justify-center">
+      <section id="home" className="flex items-start justify-center">
        <div className="w-full max-w-3xl mx-auto my-10 flex flex-col items-center justify-center px-4 sm:px-10 md:px-10 lg:px-0">
       {/* Headline */}
       <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6 font-barriecito text-center">
@@ -63,8 +63,10 @@ export default function Home() {
     Let’s create clean, modern, and impactful websites together. I’ll help turn your ideas into interactive and visually appealing digital experiences.
   </p>
   <a
-      href="/contact"
-      className="inline-block px-6 py-3 bg-indigo-400 my-5 text-white rounded-lg font-semibold shadow-2xl hover:bg-indigo-700 transition duration-300 transform hover:-translate-y-1"
+        href="https://m.me/ronnel.santos08"
+        target="_blank" 
+        rel="noopener noreferrer"
+      className="inline-block px-6 py-3 bg-indigo-400 my-5 text-white rounded-lg font-semibold shadow-2xl hover:bg-orange-500 transition duration-300 transform hover:-translate-y-1"
     >
       Let’s Chat
     </a>

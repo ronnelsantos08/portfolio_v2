@@ -178,3 +178,27 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@keyframes modal-open {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-modal-open {
+  animation: modal-open 0.3s forwards;
+}
+
+details[open] > div {
+  max-height: 24rem; /* adjust to fit content */
+}
+
+details > div {
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+}
