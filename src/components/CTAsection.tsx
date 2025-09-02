@@ -9,7 +9,7 @@ export default function CTASection() {
         
         {/* Left: Text */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
             Got a Business
             <span
               tabIndex={0}
@@ -22,7 +22,7 @@ export default function CTASection() {
                 ➤
               </span>
             </span>
-          </h1>
+          </h2>
 
           <p className="text-lg sm:text-xl text-gray-700 mb-4">
             I love turning ideas into reality. Whether it&apos;s a personal website, a business platform, or a digital product, I build solutions that are functional, modern, and user-friendly.

@@ -39,7 +39,7 @@ export default function Services() {
 
         {/* Right Side: Heading + Paragraph */}
         <div className="flex-1 flex flex-col justify-center">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
+          <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
             Services I  
             <span
                 tabIndex={0}
@@ -51,7 +51,7 @@ export default function Services() {
                 </span>
                 </span>
 
-          </h1>
+          </h2>
           <p className="text-lg text-gray-700">
             Whether you need a personal portfolio, a professional business site, a digital product platform, or freelance service setup, I deliver tailored solutions that help you succeed online.
           </p>

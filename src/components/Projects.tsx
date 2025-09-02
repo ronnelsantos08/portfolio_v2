@@ -25,7 +25,7 @@ const projects: ProjectCategory[] = [
     video: "/projects/project2.webm",
     items: [
       { name: "The JC Studios", url: "https://thejcstudios.com", description: "Professional website designed for photo and video studios Showcases creativity and quality. Focuses on visual storytelling.Core frontend tech (React, Vite, TypeScript) Content management (Contentful), APIs (Google Drive API, SMTP Email),UX & accessibility (Responsive Design, a11y),SEO and analytics (SEO Optimization,Testing and version control (Unit Testing, Git),Deployment and automation (CI/CD, Vercel Serverless Functions)Performance optimization " },
-      { name: "T&G Travelers", url: "#", description: "E-commerce website with Stripe integration and fast checkout." },
+      { name: "T&G Travelers", url: "#", description: "Figma Design to HTML CSS JS with pixel perfect" },
     ],
   },
   {
@@ -81,7 +81,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="max-w-full md:max-w-6xl mx-auto px-6 lg:px-12 py-20">
-      <h1 className="text-4xl font-bold text-center mb-4">My Projects</h1>
+      <h2 className="text-4xl font-bold text-center mb-4">My Projects</h2>
       <p className="text-center text-gray-600 mb-12">
       Here are some of the projects I’ve worked on, showcasing my skills in web development, front-end design, and digital solutions. Each project reflects my focus on creating clean, functional, and user-friendly digital products..
       </p>

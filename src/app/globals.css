@@ -2,22 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
 @import "tailwindcss";
 
-section h1,
-article h1,
-nav h1,
-aside h1 {
-  font-size: 2.25rem !important; /* matches text-4xl */
-}
-
-@media (min-width: 640px) {
-  section h1,
-  article h1,
-  nav h1,
-  aside h1 {
-    font-size: 3.75rem !important; /* matches sm:text-6xl */
-  }
-}
-
 
 /* Theme variables */
 :root {
