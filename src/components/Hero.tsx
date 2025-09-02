@@ -66,7 +66,7 @@ export default function Home() {
         href="https://m.me/ronnel.santos08"
         target="_blank" 
         rel="noopener noreferrer"
-      className="inline-block px-6 py-3 bg-indigo-400 my-5 text-white rounded-lg font-semibold shadow-2xl hover:bg-orange-500 transition duration-300 transform hover:-translate-y-1"
+      className="inline-block px-6 py-3 bg-indigo-500 my-5 text-white rounded-lg font-semibold shadow-2xl hover:bg-orange-500 transition duration-300 transform hover:-translate-y-1"
     >
       Let’s Chat
     </a>

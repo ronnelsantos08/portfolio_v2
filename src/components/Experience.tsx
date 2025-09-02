@@ -9,7 +9,7 @@ export default function ExperienceSection() {
       date: "2018 – 2023",
       description:
         "Specialized in software development, databases, and system analysis. Graduated with strong technical foundations.",
-      style: "bg-black/50 text-white",
+      style: "bg-black/70 text-white",
     },
     {
       role: "Technical Analyst",
