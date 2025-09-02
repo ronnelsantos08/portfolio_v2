@@ -24,23 +24,38 @@ export default function Home() {
         </p>
   
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16 p-4 md:p-10 lg:items-center lg:justify-center">
-        <div className="w-48 h-48 md:w-64 md:h-64 flex-shrink-0 relative group">
-  <img
-    src="/ronnel-alt.webp"
-    alt="Your Name"
-    className="w-full h-full object-cover rounded-full shadow-lg transition-opacity duration-500 ease-in-out group-hover:opacity-0 group-focus-within:opacity-0"
+      {/* Container for the entire profile card, with relative positioning */}
+      <div className="relative flex flex-col items-center max-w-sm w-full">
+        
+        {/* Square profile photo, now at the top layer */}
+   {/* Profile photo wrapper */}
+<div className="relative h-54 w-60 sm:h-52 sm:w-52 md:h-70 md:w-80 overflow-hidden z-20 group mx-auto">
+  {/* Default photo */}
+  <img 
+    src="/ronnel-alt-removebg.png"
+    alt="Profile photo"
+    className="w-full h-full object-cover transition-opacity duration-500 ease-in-out group-hover:opacity-0 group-focus-within:opacity-0"
   />
-  <img
-    src="/ronnel.webp"
-    alt="Your Name alternate"
-    className="w-full h-full object-cover rounded-full shadow-lg absolute top-0 left-0 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100 group-focus-within:opacity-100"
+  {/* Hover/focus photo */}
+  <img 
+    src="/ronnel.png"
+    alt="Alternate profile photo"
+    className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100 group-focus-within:opacity-100"
   />
-  {/* Invisible button for focusability */}
-  <button className="absolute inset-0 rounded-full focus:outline-none">
-    <span className="sr-only">Toggle photo</span>
+  {/* Invisible button */}
+  <button className="absolute inset-0 w-full h-full focus:outline-none">
+    <span className="sr-only">Toggle profile photo</span>
   </button>
 </div>
-  
+
+{/* First box (orange background) */}
+<div className="relative w-64 md:w-85 -mt-47 md:-mt-55 py-15  md:py-16 pt-32  md:pt-39 bg-orange-400 text-white rounded-xl shadow-xl z-0 mx-auto">
+</div>
+
+{/* Second box (purple border) */}
+<div className="relative w-64 md:w-85 -mt-44 md:-mt-50 py-15 md:py-5 pt-32  md:pt-50 border-2 border-purple-500 rounded-xl z-10 -left-5 sm:-left-4 md:-left-5 mx-auto">
+</div>
+</div>
     {/* Right: Intro */}
     <div className="flex-1 text-center md:text-left">
       <h1 className="text-4xl font-bold mb-4 text-gray-700">Hi, I’m Ronnel</h1>
