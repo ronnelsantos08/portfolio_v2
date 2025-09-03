@@ -52,8 +52,11 @@ export default function ExperienceSection() {
               className={`rounded shadow-lg p-6 flex-shrink-0 w-[60%] sm:w-[60%] md:w-auto ${exp.style}`}
             >
               <h3 className="text-xl font-semibold mb-2 font-mono">{exp.role}</h3>
+              <p className="text-sm opacity-80 text-md text-md">
+                {exp.company}
+              </p>
               <p className="text-sm opacity-80 mb-3 text-md text-md">
-                {exp.company} — {exp.date}
+               {exp.date}
               </p>
               <p className="text-base">{exp.description}</p>
             </div>
