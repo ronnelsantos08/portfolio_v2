@@ -24,8 +24,8 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-2l font-bold text-gray-800 mb-3">Quick Links</h3>
-            <ul className="space-y-2">
+            <h3 className="text-lg font-bold text-gray-800 mb-3 font-russo">Quick Links</h3>
+            <ul className="space-y-2 font-mono text-sm">
               <li><a href="#home" className="menu-link hover:text-purple-400 transition">Home</a></li>
               <li><a href="#experience" className="menu-link hover:text-purple-400 transition">Experience</a></li>
               <li><a href="#services" className="menu-link hover:text-purple-400 transition">Services</a></li>
@@ -38,7 +38,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-bold text-gray-800 mb-3">Get in Touch</h4>
+            <h4 className="text-lg font-bold text-gray-800 mb-3 font-russo">Get in Touch</h4>
             <p className="text-sm opacity-80 flex text-black gap-2 py-2"><Mail size={20} /> <a href="Mailto:ronnel.santos08@gmail.com">ronnel.santos08@gmail.com</a></p>
             <p className="text-sm opacity-80 flex text-black gap-2 py-2"><Phone size={20} /><a href="Tel:+639757946973">+63 975 794 6973</a></p>
 

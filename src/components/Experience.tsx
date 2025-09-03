@@ -40,7 +40,7 @@ export default function ExperienceSection() {
   return (
     <section id="experience" className="py-20 z-10 w-full">
       <div className="max-w-6xl mx-auto px-6 lg:px-12">
-        <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-10">
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-10 font-russo">
           Experience
         </h2>
 
@@ -51,8 +51,8 @@ export default function ExperienceSection() {
               key={index}
               className={`rounded shadow-lg p-6 flex-shrink-0 w-[60%] sm:w-[60%] md:w-auto ${exp.style}`}
             >
-              <h3 className="text-xl font-semibold mb-2">{exp.role}</h3>
-              <p className="text-sm opacity-80 mb-3">
+              <h3 className="text-xl font-semibold mb-2 font-mono">{exp.role}</h3>
+              <p className="text-sm opacity-80 mb-3 text-md text-md">
                 {exp.company} — {exp.date}
               </p>
               <p className="text-base">{exp.description}</p>

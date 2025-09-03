@@ -3,7 +3,7 @@ export default function Home() {
       <section id="home" className="flex items-start justify-center w-full">
        <div className="w-full max-w-3xl mx-auto my-10 flex flex-col items-center justify-center px-4 sm:px-10 md:px-10 lg:px-0">
       {/* Headline */}
-      <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6 font-barriecito text-center">
+      <h1 className="text-3xl sm:text-5xl font-extrabold text-gray-900 font-russo mb-6 text-center">
       Crafting 
       <span
   tabIndex={0}
@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
   
         {/* Subtext */}
-        <p className="text-lg sm:text-2xl text-gray-700 max-w-3xl font-sans leading-relaxed text-center">
+        <p className="text-lg sm:text-2xl max-w-3xl text-gray-600 font-sans leading-relaxed text-center">
           I&apos;m a web developer and designer, crafting clean, user-friendly interfaces and interactive experiences. I combine creativity with code to build websites that not only look great but work seamlessly.
         </p>
   
@@ -58,8 +58,8 @@ export default function Home() {
 </div>
     {/* Right: Intro */}
     <div className="flex-1 text-center md:text-left flex flex-col items-center md:items-start">
-      <h1 className="text-4xl font-bold mb-4 text-gray-900">Hi, I&apos;m Ronnel</h1>
-      <p className="text-lg text-gray-700">
+      <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-900 font-russo">Hi, I&apos;m Ronnel</h2>
+      <p className="text-lg sm:text-2xl text-gray-600 font-sans">
     Let&apos;s create clean, modern, and impactful websites together. I&apos;ll help turn your ideas into interactive and visually appealing digital experiences.
   </p>
     <a 

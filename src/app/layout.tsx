@@ -4,13 +4,38 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import SpotlightGrid from "@/components/SpotLightGrid";
 import Script from "next/script";
+import { Alumni_Sans_Pinstripe, Russo_One } from "next/font/google";
+
+const alumni = Alumni_Sans_Pinstripe({
+  weight: "400", // this font only has 400
+  style: ["normal", "italic"], // include italics
+  subsets: ["latin"],
+  variable: "--font-alumni",
+});
+
+const russo = Russo_One({
+  weight: "400", // Russo One only comes in 400
+  subsets: ["latin"],
+  variable: "--font-russo",
+});
+
 
 export const metadata: Metadata = {
   title: "WebWorks | Intelligent Web Solutions",
   description:
     "Empowering Your Business Through Intelligent Web Solutions. We push boundaries to deliver exceptional results for clients and partners.",
   authors: [{ name: "Ronnel Santos" }],
-  icons: "/icon.png",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    other: [
+      { rel: "manifest", url: "/site.webmanifest" },
+    ],
+  },
   openGraph: {
     title: "WebWorks | Intelligent Web Solutions",
     description:
@@ -28,6 +53,9 @@ export const metadata: Metadata = {
   verification: {
     google: "hXad928N_Fbw9v8giZ9hObYm3JF3JmV-WmjMUPLrsgY",
   },
+  appleWebApp: {
+    title: "WebWorks",
+  },
 };
 
 export const viewport = {
@@ -37,7 +65,7 @@ export const viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" data-scroll-behavior="smooth">
+    <html lang="en" data-scroll-behavior="smooth" className={`${alumni.variable} ${russo.variable}`}>
       <head>
         {/* Google Analytics */}
         <Script

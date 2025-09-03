@@ -9,7 +9,7 @@ export default function CTASection() {
         
         {/* Left: Text */}
         <div className="w-full lg:w-1/2 text-center lg:text-left flex flex-col items-center lg:items-start">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-6 font-russo">
             Got a Business
             <span
               tabIndex={0}
@@ -24,11 +24,11 @@ export default function CTASection() {
             </span>
           </h2>
 
-          <p className="text-lg sm:text-xl text-gray-700 mb-4">
+          <p className="text-lg sm:text-2xl text-gray-600 font-['Gemunu_Libre'] mb-4">
             I love turning ideas into reality. Whether it&apos;s a personal website, a business platform, or a digital product, I build solutions that are functional, modern, and user-friendly.
           </p>
 
-          <p className="text-lg sm:text-xl text-gray-700 mb-6">
+          <p className="text-lg sm:text-2xl text-gray-600 font-sans mb-6">
             I focus on clean design, responsive development, and practical features that help your idea succeed in the digital world. Let&apos;s create something amazing together.
           </p>
 

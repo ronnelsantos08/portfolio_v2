@@ -81,18 +81,18 @@ export default function Navbar() {
       animate={{ opacity: 1, height: "auto" }}
       exit={{ opacity: 0, height: 0 }}
       transition={{ duration: 0.4, ease: "easeInOut" }}
-      className="md:hidden mt-2 flex flex-col space-y-2 w-25"
+      className="md:hidden mt-2 flex flex-col space-y-2 w-25 alumni-sans-pinstripe-regular text-3xl"
     >
-      <Link href="#home" className="menu-link text-gray-600 hover:text-gray-900">
+      <Link href="#home" className="menu-link text-gray-800 hover:text-gray-900">
         Home
       </Link>
-      <Link href="#experience" className="menu-link text-gray-600 hover:text-gray-900">
+      <Link href="#experience" className="menu-link text-gray-800 hover:text-gray-900">
         Experience
       </Link>
-      <Link href="#services" className="menu-link text-gray-600 hover:text-gray-900">
+      <Link href="#services" className="menu-link text-gray-800 hover:text-gray-900">
         Services
       </Link>
-      <Link href="#projects" className="menu-link text-gray-600 hover:text-gray-900">
+      <Link href="#projects" className="menu-link text-gray-800 hover:text-gray-900">
         Projects
       </Link>
       <Link 

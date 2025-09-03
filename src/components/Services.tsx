@@ -31,15 +31,15 @@ export default function Services() {
               key={service.title}
               className="p-6 bg-orange-100/20 border border-orange-100 rounded-xl shadow "
             >
-              <h3 className="text-xl font-mono text-orange-800 mb-2">{service.title}</h3>
-              <p className="text-gray-700">{service.description}</p>
+              <h3 className="text-md sm:text-xl font-bold font-mono text-orange-600 mb-2">{service.title}</h3>
+              <p className="text-gray-700 sm:text-md text-sm">{service.description}</p>
             </div>
           ))}
         </div>
 
         {/* Right Side: Heading + Paragraph */}
         <div className="flex-1 flex flex-col justify-center">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-900 mb-4 font-russo">
             Services I  
             <span
                 tabIndex={0}
@@ -52,7 +52,7 @@ export default function Services() {
                 </span>
 
           </h2>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg sm:text-2xl text-gray-600 font-sans">
             Whether you need a personal portfolio, a professional business site, a digital product platform, or freelance service setup, I deliver tailored solutions that help you succeed online.
           </p>
         </div>
