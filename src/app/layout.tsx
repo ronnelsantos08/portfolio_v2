@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "WebWorks",
     images: [
       {
-        url: "https://ronnelsantos.vercel.app/banner.jpg",
+        url: "https://ronnelsantos.vercel.app/banner.webp",
       },
     ],
     type: "website",
