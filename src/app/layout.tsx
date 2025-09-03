@@ -19,7 +19,6 @@ const russo = Russo_One({
   variable: "--font-russo",
 });
 
-
 export const metadata: Metadata = {
   title: "WebWorks | Intelligent Web Solutions",
   description:
@@ -62,8 +61,39 @@ export const viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" data-scroll-behavior="smooth" className={`${alumni.variable} ${russo.variable}`}>
+    <html
+      lang="en"
+      data-scroll-behavior="smooth"
+      className={`${alumni.variable} ${russo.variable}`}
+    >
       <head>
+        {/* Favicon set */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+
+        {/* Apple icons */}
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="Webworks" />
+
+
+        {/* Manual meta description (for Lighthouse fallback) */}
+        <meta
+          name="description"
+          content="Empowering Your Business Through Intelligent Web Solutions. We push boundaries to deliver exceptional results for clients and partners."
+        />
+
         {/* Google Analytics */}
         <Script
           strategy="afterInteractive"
