@@ -87,6 +87,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="apple-mobile-web-app-title" content="Webworks" />
 
+        {/* PWA manifest */}
+        <link rel="manifest" href="/site.webmanifest" />
 
         {/* Manual meta description (for Lighthouse fallback) */}
         <meta
