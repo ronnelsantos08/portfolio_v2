@@ -36,7 +36,7 @@ export default function Home() {
                   {/* Arrow that flies in from top-right and “hits” the badge */}
                   <span
                     aria-hidden="true"
-                    className={`arrow-start text-black text-3xl ${inView ? "arrow-animate" : ""}`}
+                    className={`arrow-start text-black text-3xl sm:text-4xl ${inView ? "arrow-animate" : ""}`}
                   >
                     ➤
                   </span>
