@@ -24,17 +24,17 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6 items-center alumni-sans-pinstripe-regular text-3xl">
-            <Link href="/" className="menu-link text-gray-600 hover:text-gray-900">
+          <div className="hidden md:flex space-x-6 items-center font-alumni font-bold text-3xl">
+            <Link href="/" className="menu-link text-gray-900 hover:text-gray-900">
               Home
             </Link>
-            <Link href="#experience" className="menu-link text-gray-600 hover:text-gray-900">
+            <Link href="#experience" className="menu-link text-gray-900 hover:text-gray-900">
               Experience
             </Link>
-            <Link href="#services" className="menu-link text-gray-600 hover:menu-link -900">
+            <Link href="#services" className="menu-link text-gray-900 hover:menu-link -900">
               Services
             </Link>
-            <Link href="#projects" className="menu-link text-gray-600 hover:text-gray-900">
+            <Link href="#projects" className="menu-link text-gray-900 hover:text-gray-900">
               Projects
             </Link>
             <Link 
@@ -81,7 +81,7 @@ export default function Navbar() {
       animate={{ opacity: 1, height: "auto" }}
       exit={{ opacity: 0, height: 0 }}
       transition={{ duration: 0.4, ease: "easeInOut" }}
-      className="md:hidden mt-2 flex flex-col space-y-2 w-25 alumni-sans-pinstripe-regular text-3xl"
+      className="md:hidden mt-2 flex flex-col space-y-2 w-25 font-alumni text-3xl font-bold"
     >
       <Link href="#home" className="menu-link text-gray-800 hover:text-gray-900">
         Home
