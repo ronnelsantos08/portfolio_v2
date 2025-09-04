@@ -49,10 +49,10 @@ const projects: ProjectCategory[] = [
   {
     id: 4,
     title: "Digital Product",
-    video: "/projects/project4.webm",
+    video: "/projects/project5.webm",
     items: [
       { name: "Logo and Banners", url: "/", description: "Landing page for digital app product with download links." },
-      { name: "File Uploading Project", url: "/", description: "Web-based productivity tool Image Optimization site." },
+      { name: "Video Editing", url: "/", description: "Video Editing using Premiere Pro, Final Cut and Davinci Resolve." },
     ],
   },
 ];
@@ -132,7 +132,7 @@ export default function Projects() {
       </button>
 
       {/* Category Video */}
-      <h2 className="text-2xl font-bold mb-4 ">{selectedCategory.title}</h2>
+      <h2 className="text-2xl font-bold mb-4 text-gray-800">{selectedCategory.title}</h2>
       <video
         src={selectedCategory.video}
         autoPlay

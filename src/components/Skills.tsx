@@ -3,14 +3,18 @@
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const skills = [
-  { name: "React", file: "/lottie/react.lottie" },
-  { name: "JavaScript", file: "/lottie/java.lottie" },
+  { name: "REACT", file: "/lottie/react.lottie" },
+  { name: "JAVASCRIPT", file: "/lottie/java.lottie" },
   { name: "HTML5", file: "/lottie/html.lottie" },
   { name: "CSS", file: "/lottie/css.lottie" },
   { name: "GIT", file: "/lottie/git.lottie" },
   { name: "SQL", file: "/lottie/sql.lottie" },
   { name: "NODE", file: "/lottie/node.lottie" },
-  { name: "TS", file: "/lottie/ts.lottie" },
+  { name: "TYPESCRIPT", file: "/lottie/ts.lottie" },
+  { name: "PHP", file: "/lottie/php.lottie" },
+  { name: "MONGO", file: "/lottie/mongo.lottie" },
+  { name: "TAILWIND", file: "/lottie/tailwind.lottie" },
+  { name: "NEXT", file: "/lottie/next.lottie" },
 ];
 
 export default function Skills() {
@@ -22,17 +26,17 @@ export default function Skills() {
           Technologies I work with and enjoy building with. From front-end to back-end, these are the technologies I use to craft performant and visually stunning web applications.
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 justify-items-center border-2 border-orange-400 items-center px-20 py-5 rounded shadow-xl bg-[rgba(246,186,83,0.02)]">
+        <div className="grid grid-cols-4 sm:grid-cols-4 sm:gap-8 gap-20 justify-items-center border-2 border-orange-400 items-center px-15 py-5 rounded shadow-xl bg-[rgba(246,186,83,0.02)]">
 
           {skills.map((skill) => (
-            <div key={skill.name} className="flex flex-col items-center space-y-2">
+            <div key={skill.name} className="flex flex-col items-center space-y-0">
               <DotLottieReact
                 src={skill.file}
                 loop
                 autoplay
-                style={{ width: 70, height: 70 }}
+                style={{ width: 50, height: 50 }}
               />
-              <span className="text-lg font-semibold text-gray-700">{skill.name}</span>
+              <span className="sm:text-lg text-sm font-semibold font-mono text-gray-700">{skill.name}</span>
             </div>
           ))}
         </div>
