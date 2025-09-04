@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand / About */}
           <div className="flex-col items-center">
           <Image
-                src="/logo.png"  
+                src="/logo.webp"  
                 alt="WebWorks logo"
                 width={200}     
                 height={0}

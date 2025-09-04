@@ -76,7 +76,7 @@ export default function CTASection() {
         {/* Right: Image */}
         <div className="w-100 lg:w-1/2 flex justify-center">
           <Image
-            src="/lets-go.png"
+            src="/lets-go.webp"
             alt="Personal business idea illustration"
             width={200}
             height={200}

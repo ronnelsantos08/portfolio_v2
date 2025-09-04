@@ -14,7 +14,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="#home" className="flex items-center relative z-10">
           <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Webworks logo"
                 width={130}    
                 height={0}  

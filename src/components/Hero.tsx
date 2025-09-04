@@ -59,12 +59,12 @@ export default function Home() {
           <div className="relative flex flex-col items-center max-w-sm w-full">
             <div className="relative h-54 w-60 sm:h-52 sm:w-52 md:h-70 md:w-80 overflow-hidden z-20 group mx-auto">
               <img
-                src="/ronnel-alt-removebg.png"
+                src="/ronnel-alt-removebg.webp"
                 alt="Profile photo"
                 className="w-full h-full object-cover transition-opacity duration-500 ease-in-out group-hover:opacity-0 group-focus-within:opacity-0"
               />
               <img
-                src="/ronnel.png"
+                src="/ronnel.webp"
                 alt="Alternate profile photo"
                 className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100 group-focus-within:opacity-100"
               />
