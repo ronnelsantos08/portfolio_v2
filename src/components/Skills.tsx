@@ -26,7 +26,7 @@ export default function Skills() {
           Technologies I work with and enjoy building with. From front-end to back-end, these are the technologies I use to craft performant and visually stunning web applications.
         </p>
 
-        <div className="grid grid-cols-4 sm:grid-cols-4 sm:gap-8 gap-20 justify-items-center border-2 border-orange-400 items-center px-15 py-5 rounded shadow-xl bg-[rgba(246,186,83,0.02)]">
+        <div className="grid grid-cols-4 sm:grid-cols-4 sm:gap-8 gap-10 justify-items-center border-2 border-orange-400 items-center px-15 py-5 rounded shadow-xl bg-[rgba(246,186,83,0.02)]">
 
           {skills.map((skill) => (
             <div key={skill.name} className="flex flex-col items-center space-y-0">
