@@ -25,6 +25,7 @@ const projects: ProjectCategory[] = [
     video: "/projects/project2.webm",
     items: [
       { name: "The JC Studios", url: "https://thejcstudios.com", description: "Professional website designed for photo and video studios Showcases creativity and quality. Focuses on visual storytelling.Core frontend tech (React, Vite, TypeScript) Content management (Contentful), APIs (Google Drive API, SMTP Email),UX & accessibility (Responsive Design, a11y),SEO and analytics (SEO Optimization,Testing and version control (Unit Testing, Git),Deployment and automation (CI/CD, Vercel Serverless Functions)Performance optimization " },
+      { name: "Pak&Go Restoration", url: "https://pakngo.com/", description: "Figma Design to HTML CSS JS with pixel perfect, interactive menu and mobile responsive design." },
       { name: "T&G Travelers", url: "#", description: "Figma Design to HTML CSS JS with pixel perfect" },
     ],
   },
@@ -49,7 +50,7 @@ const projects: ProjectCategory[] = [
   {
     id: 4,
     title: "Digital Product",
-    video: "/projects/project5.webm",
+    video: "/projects/project6.webm",
     items: [
       { name: "Logo and Banners", url: "/", description: "Landing page for digital app product with download links." },
       { name: "Video Editing", url: "/", description: "Video Editing using Premiere Pro, Final Cut and Davinci Resolve." },
