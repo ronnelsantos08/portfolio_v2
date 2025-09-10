@@ -5,6 +5,8 @@ import "./globals.css";
 import SpotlightGrid from "@/components/SpotLightGrid";
 import Script from "next/script";
 import { Alumni_Sans_Pinstripe, Russo_One } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const alumni = Alumni_Sans_Pinstripe({
   weight: "400", // this font only has 400
@@ -117,6 +119,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SpotlightGrid />
         <Navbar />
         <main>{children}</main>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
