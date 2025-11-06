@@ -25,6 +25,7 @@ const projects: ProjectCategory[] = [
     video: "/projects/project2.webm",
     items: [
       { name: "The JC Studios", url: "https://thejcstudios.com", description: "Professional website designed for photo and video studios Showcases creativity and quality. Focuses on visual storytelling.Core frontend tech (React, Vite, TypeScript) Content management (Contentful), APIs (Google Drive API, SMTP Email),UX & accessibility (Responsive Design, a11y),SEO and analytics (SEO Optimization,Testing and version control (Unit Testing, Git),Deployment and automation (CI/CD, Vercel Serverless Functions)Performance optimization " },
+      { name: "D1 Skin Care", url: "https://codechallenge-xi.vercel.app/", description: "Figma Design to HTML CSS JS with pixel perfect" },
       { name: "T&G Travelers", url: "#", description: "Figma Design to HTML CSS JS with pixel perfect" },
     ],
   },
