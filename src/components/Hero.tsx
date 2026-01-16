@@ -83,13 +83,12 @@ export default function Home() {
               interactive and visually appealing digital experiences.
             </p>
             <a
-              href="https://m.me/ronnel.santos08"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/RSCV.pdf"
+              download
               className="custom-button shadow-2xl"
             >
               <div className="front">
-                <span>Let&apos;s chat</span>
+                <span>View Resume</span>
               </div>
             </a>
           </div>

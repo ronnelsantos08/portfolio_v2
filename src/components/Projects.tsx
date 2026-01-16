@@ -25,6 +25,7 @@ const projects: ProjectCategory[] = [
     video: "/projects/project2.webm",
     items: [
       { name: "The JC Studios", url: "https://thejcstudios.com", description: "Professional website designed for photo and video studios Showcases creativity and quality. Focuses on visual storytelling.Core frontend tech (React, Vite, TypeScript) Content management (Contentful), APIs (Google Drive API, SMTP Email),UX & accessibility (Responsive Design, a11y),SEO and analytics (SEO Optimization,Testing and version control (Unit Testing, Git),Deployment and automation (CI/CD, Vercel Serverless Functions)Performance optimization " },
+      { name: "Pak and Go Restoration", url: "https://pakngo.com/", description: "A pixel-accurate, responsive website for a restoration services company, built from Figma designs." },
       { name: "D1 Skin Care", url: "https://codechallenge-xi.vercel.app/", description: "Figma Design to HTML CSS JS with pixel perfect" },
       { name: "T&G Travelers", url: "#", description: "Figma Design to HTML CSS JS with pixel perfect" },
     ],
@@ -36,6 +37,10 @@ const projects: ProjectCategory[] = [
     items: [
       { name: "Wedding", url: "https://ourwedding-2rr6.vercel.app/", description: "Interactive digital wedding invitation with RSVP support." },
       { name: "JC Wedding", url: "https://jcwedding.thejcstudios.com", description: "Custom digital invitation for mobile with animated backgrounds." },
+      { name: "Deanne and Ulysses", url: "http://ulyssesdeanne.thejcstudios.com/", description: "A custom mobile-friendly digital wedding invitation featuring animated backgrounds and interactive elements." },
+      { name: "Julian and Christine", url: "https://jcwedding.thejcstudios.com/", description: "A mobile-only digital wedding invitation with animated backgrounds." },
+      { name: "Tristan and Mara", url: "https://tmwedding.thejcstudios.com/", description: "A bespoke digital wedding invitation designed for mobile, enhanced with elegant animated backgrounds." },
+      { name: "Shen and Miel", url: "https://shenmiel.thejcstudios.com/", description: "A responsive mobile digital wedding invitation built with animated backgrounds and smooth interactions." },
     ],
   },
   {
